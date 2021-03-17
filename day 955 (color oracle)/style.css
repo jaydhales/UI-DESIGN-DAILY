@@ -1,0 +1,36 @@
+:root {
+    --color1: #F0F6FB;
+    --color2: #384874;
+    --color3: #8C919E;
+    --color4: #CBBE0C;
+    --color5: #F1642E;
+    --color6: #ACACAC;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   background-image: url(..;
+}
+nav {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+.nav-links {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: inherit;
+}
+.nav-links:hover {
+    border-bottom: solid #384874 3px;
+}
+#top-sect {
+    width: 500px;
+    margin: 5rem auto auto;
+    text-align: center;
+}
+#download-sect {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Credit Card Details</title>
+</head>
+<body>
+    <div id="container">
+        <div id="icon">
+            <img id="icon-img" src="group 18.png" alt="two cups art image">
+        </div>
+        <div id="card-details">
+            <p>
+                4\4
+                <h2>Last Step! </h2>
+                <h4>Enter your payment info below.</h4>
+            </p>
+            <div id="payment-option">
+                <div id="credit-card" class="payment-options input-box">
+                    Credit Card
+                </div>
+                <div id="paypal" class="payment-options input-box">
+                    Paypal
+                </div>
+            </div>
+            <div id="card-no">
+                <h5>Card Number</h5>
+                <input type="number" class="input-box" placeholder="123 4567 8912 3456">
+            </div>
+            <div id="exp-and-cvc">
+                <div id="expiration">
+                    <h5>Expiration Date</h5>
+                   <div id="month-year">
+                    <select name="Month" class="input-box" id="month">
+                        <option value="">Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <input type="number" class="input-box" name="year" id="year" placeholder="year">
+                   </div>
+                </div>
+                <div id="cvc">
+                    <h5>CVC</h5>
+                    <input type="number" class="input-box" name="cvc" id="cvc-no" placeholder="cvc">
+                </div>
+            </div>
+            <h5>By Creating an account, you agree to Study.com's Terms of Use and Privacy Policy.</h5>
+            <button type="submit" class="input-box" id="btn">Join Now</button>
+        </div>
+    </div>
+</body>
+</html>

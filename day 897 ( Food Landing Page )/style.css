@@ -1,0 +1,160 @@
+:root{
+    --color1: #F5A666 ;
+    --color1: #2E2C34 ;
+    --color1: #EBEBED ;
+    --color1: #BB370C ;
+    --color1: #D68E0C ;
+    --color1: #ECE087 ;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body {
+    background-image: linear-gradient( to right,  #f5a66670 ,  #f5a66640,  #f5a66617 , #f5a66600);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+}
+#nav-div {
+    background-color: #2E2C34;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+}
+nav {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links {
+    color: #EBEBED;
+    margin: auto 10px;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    font-size: smaller;
+}
+.nav-links:hover {
+    background-color: #e7673c;
+}
+section {
+    margin: auto 5% auto;
+    padding: 1rem;
+}
+section h1 {
+    margin: 1rem auto;
+}
+section p {
+    margin-bottom: 50px;
+}
+#searchdiv {
+    width: max-content;
+    margin: 1rem 0;
+    background-color: #EBEBED;
+    border-radius: 0 5px 5px 0;
+}
+#searchbox{
+    background-color: #EBEBED;
+}
+.search-e {
+    margin: 0;
+    padding: 1rem 0.5rem;
+    border: none;
+}
+.crosshair {
+    margin: auto 2px;
+    color: #636363;
+}
+#search-btn {
+    background-color: #e7673c;
+    color: #EBEBED;
+    border-radius: 0 5px 5px 0;
+}
+#search-btn:hover {
+    background-color: #BB370C;
+    color: white;
+}
+
+footer{
+    /* margin-top: auto; */
+    background-color: #EBEBED;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 1rem;
+    color: #2E2C34;
+    font-size: small;
+}
+#footlink {
+    display: flex;
+    gap: 6px;
+}
+.footer-links {
+    color: #2a2731d0;
+}
+.footer-links:hover {
+    color: #242329;
+}
+#footer-icon {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width:350px) { 
+    #searchdiv {
+        width: 210px;
+        display: flex;
+    }
+    #search-btn {
+        margin: 10px 50px;
+    }
+}
+
+
+@media screen and (min-width:520px) { 
+    nav{
+        position: absolute;
+        right: 1rem;
+    }
+    section {
+        width: 490px;
+    }
+    .crosshair {
+        margin: auto 10px;
+    }
+    #searchbox{
+        width: 300px;
+    }
+    footer {
+        flex-direction: row;
+        align-items: unset;
+        justify-content: unset;
+
+    }
+    #footlink{
+        margin-right: auto;
+    }
+    #copy-year {
+        position: absolute;
+        left: 50%;
+        margin: auto;
+    }
+    #footer-icon {
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,29 @@
+* {
+    color: white;
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+} 
+body {
+    background: blue ;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    padding: 1rem;
+    right: 30px;
+    top: 20px;
+    display: flex;
+}
+.nav-links {
+    padding: 0.6rem 1rem;
+    background-color: blueviolet;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#maindiv {
+    width: 500px;
+}
